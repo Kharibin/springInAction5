@@ -1,6 +1,7 @@
 package com.kharybin.tacoes.tacocloud.model;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.hibernate.validator.constraints.CreditCardNumber;
 
 import javax.validation.constraints.Digits;
@@ -8,7 +9,8 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
 @Data
-public class Order {
+@EqualsAndHashCode(callSuper = true)
+public class Order extends Persistable{
     @NotBlank(message="Name is required")
     private String name;
     @NotBlank(message="Street is required")
