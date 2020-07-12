@@ -1,4 +1,4 @@
-package com.kharybin.tacoes.tacocloud;
+package com.kharybin.tacoes.tacocloud.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

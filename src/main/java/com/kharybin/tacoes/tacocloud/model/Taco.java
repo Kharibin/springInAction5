@@ -1,4 +1,4 @@
-package com.kharybin.tacoes.tacocloud;
+package com.kharybin.tacoes.tacocloud.model;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
