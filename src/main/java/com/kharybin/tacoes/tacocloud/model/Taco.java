@@ -5,10 +5,12 @@ import javax.validation.constraints.Size;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
 @Data
+@RequiredArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 public class Taco extends Persistable{
 

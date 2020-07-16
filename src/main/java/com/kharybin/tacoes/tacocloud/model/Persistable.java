@@ -7,5 +7,5 @@ import java.util.Date;
 @Data
 public abstract class Persistable {
     private Long id;
-    private Date placedAt;
+    private Date createdAt;
 }
